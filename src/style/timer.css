@@ -1,0 +1,24 @@
+#timer {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.seconds {
+  font-size: 40px;
+}
+
+.restartBtn {
+  display: none;
+  margin: 0 auto;
+  font-size: large;
+  padding: 8px 16px;
+  border: 3px solid #232323;
+  border-radius: 8px;
+  background-color: #fff8ac;
+  transition: all 0.5s ease;
+}
+.restartBtn:hover {
+  background-color: #e1be85;
+  color: #fff;
+  border-color: #fff;
+}
