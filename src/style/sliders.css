@@ -1,0 +1,42 @@
+#sliders {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNext,
+.btnBack {
+  padding: 8px 16px;
+  font-size: large;
+  border: 3px solid #232323;
+  border-radius: 8px;
+}
+
+.btnNext {
+  background-color: aquamarine;
+  transition: all 0.5s ease;
+}
+.btnNext:hover {
+  background-color: rgb(78, 135, 116);
+  color: #fff;
+  border-color: #fff;
+}
+
+.btnBack {
+  background-color: tomato;
+  transition: all 0.5s ease;
+}
+.btnBack:hover {
+  background-color: rgb(125, 59, 47);
+  color: #fff;
+  border-color: #fff;
+}
+
+.imageSliders {
+  width: 800px;
+  height: 500px;
+  border-radius: 6px;
+}
