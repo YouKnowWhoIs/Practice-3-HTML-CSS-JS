@@ -1,0 +1,43 @@
+#randomColor {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.btnRandomColor,
+.btnRandomBodyColor {
+  padding: 8px 16px;
+  font-size: large;
+  border: 3px solid #d2b48c;
+  border-radius: 14px;
+  background-color: #fff8ac;
+  transition: all 0.5s ease;
+}
+.btnRandomColor:hover,
+.btnRandomBodyColor:hover {
+  border-color: #e9d4b9;
+  background-color: #72653c;
+  color: #fff;
+}
+
+.btnRandomBodyColor,
+.BackgColorName {
+  visibility: hidden;
+}
+
+.conteinerColor {
+  width: 600px;
+  height: 300px;
+  border: 3px solid #232323;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorName,
+.BackgColorName {
+  font-size: 30px;
+}
