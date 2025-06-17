@@ -1,0 +1,30 @@
+#randomPass {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.btnRandomPass {
+  padding: 8px 16px;
+  font-size: large;
+  border: 3px solid #d2b48c;
+  border-radius: 14px;
+  background-color: #fff8ac;
+  transition: all 0.5s ease;
+}
+.btnRandomPass:hover {
+  border-color: #e9d4b9;
+  background-color: #72653c;
+  color: #fff;
+}
+
+.randomPassText {
+  visibility: hidden;
+  padding: 8px 24px;
+  border: 3px solid #232323;
+  border-radius: 8px;
+  background-color: #f5deb3;
+  font-size: large;
+}

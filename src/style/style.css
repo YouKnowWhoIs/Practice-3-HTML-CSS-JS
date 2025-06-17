@@ -2,6 +2,7 @@
 @import "./timer.css";
 @import "./sliders.css";
 @import "./randomColor.css";
+@import "./randomPass.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
