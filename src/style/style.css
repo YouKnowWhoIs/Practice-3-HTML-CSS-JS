@@ -3,6 +3,7 @@
 @import "./sliders.css";
 @import "./randomColor.css";
 @import "./randomPass.css";
+@import "./toDoList.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

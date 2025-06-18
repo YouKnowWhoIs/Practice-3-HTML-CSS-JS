@@ -1,0 +1,74 @@
+#toDoList {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.toDoInputWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.toDoInput {
+  padding-left: 10px;
+  width: 500px;
+  height: 40px;
+  border: 2px solid #d2b48c;
+  border-radius: 10px;
+  background-color: #fff8ac;
+}
+
+.toDoAddBtn {
+  padding: 8px 16px;
+  font-size: large;
+  border: 3px solid #232323;
+  border-radius: 8px;
+  background-color: aquamarine;
+  transition: all 0.5s ease;
+}
+.toDoAddBtn:hover {
+  background-color: rgb(78, 135, 116);
+  color: #fff;
+  border-color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.listItems {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  padding: 10px;
+  text-align: start;
+  border: 2px solid #232323;
+  border-radius: 14px;
+}
+
+.listText {
+  width: 350px;
+  overflow-wrap: break-word;
+}
+
+.removeBtn {
+  margin: 0 0 0 auto;
+  padding: 8px 16px;
+  font-size: large;
+  border: 3px solid #232323;
+  border-radius: 8px;
+  background-color: tomato;
+  transition: all 0.5s ease;
+}
+.removeBtn :hover {
+  background-color: rgb(125, 59, 47);
+  color: #fff;
+  border-color: #fff;
+}
