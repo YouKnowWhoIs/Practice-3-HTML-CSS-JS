@@ -1,0 +1,43 @@
+#validatorEmail {
+  margin-bottom: 70px;
+}
+
+.conteinerInput {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputEmail {
+  width: 300px;
+  height: 35px;
+  padding-left: 15px;
+  border: 2px solid #d2b48c;
+  border-radius: 10px;
+  background-color: #fff8ac;
+}
+
+.btnValid {
+  font-size: large;
+  padding: 8px 16px;
+  border: 3px solid #232323;
+  border-radius: 8px;
+  background-color: #fff8ac;
+  transition: all 0.5s ease;
+}
+.btnValid:hover {
+  background-color: #e1be85;
+  color: #fff;
+  border-color: #fff;
+}
+
+.conteinerText {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.errorText {
+  font-size: large;
+}
